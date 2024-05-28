@@ -45,12 +45,18 @@ export const Index = () => {
                         discussions, students will gain a solid foundation in
                         educational psychology.
                       </p>
-                      <Link to="/transfer" className="tl-4-banner-btn ">
-                        <a href="https://en.wikipedia.org/wiki/University">
-                          More Details
-                        </a>{" "}
-                        <i class="fa-solid fa-angles-right"></i>
-                      </Link>
+
+                      <a
+                        href="https://en.wikipedia.org/wiki/University"
+                        style={{ color: "white" }}
+                        className="anchor"
+                      >
+                        More Details
+                        <i
+                          class="fa-solid fa-angles-right"
+                          style={{ margin: "0px 10px" }}
+                        ></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -80,9 +86,18 @@ export const Index = () => {
                         discussions, students will gain a solid foundation in
                         educational psychology.
                       </p>
-                      <Link to="/transfer" className="tl-4-banner-btn">
-                        More Details <i class="fa-solid fa-angles-right"></i>
-                      </Link>
+
+                      <a
+                        href="https://en.wikipedia.org/wiki/University"
+                        style={{ color: "white" }}
+                        className="anchor"
+                      >
+                        More Details
+                        <i
+                          class="fa-solid fa-angles-right"
+                          style={{ margin: "0px 10px" }}
+                        ></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -111,9 +126,18 @@ export const Index = () => {
                         discussions, students will gain a solid foundation in
                         educational psychology.
                       </p>
-                      <Link to="/transfer" className="tl-4-banner-btn">
-                        More Details<i class="fa-solid fa-angles-right"></i>
-                      </Link>
+
+                      <a
+                        href="https://en.wikipedia.org/wiki/University"
+                        style={{ color: "white" }}
+                        className="anchor"
+                      >
+                        More Details
+                        <i
+                          class="fa-solid fa-angles-right"
+                          style={{ margin: "0px 10px" }}
+                        ></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -181,10 +205,14 @@ export const Index = () => {
                 </div>
 
                 <div className="tl-4-about-txt-bottom">
-                  <Link to="/leadership" className="tl-def-btn tl-4-def-btn">
-                    More Details <i class="fa-solid fa-angles-right"></i>
-                  </Link>
-
+                  <a
+                    href="https://all4ed.org/wp-content/uploads/2017/05/TLP-white-paper-Leadership-in-Teaching-2016.pdf"
+                    target="_blank"
+                    className="tl-def-btn tl-4-def-btn"
+                  >
+                    moredetails
+                    <i class="fa-solid fa-angles-right"></i>
+                  </a>{" "}
                   <div className="tl-4-about-support">
                     <img
                       src="assets/images/tl-4/support.png"

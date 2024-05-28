@@ -5673,12 +5673,15 @@ textarea::placeholder {
 .control-dots {
   position: absolute;
   top: 50%;
+  width: 40px;
+  height: 50px;
   right: 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
-  z-index: -1;
+  z-index: -10;
+  /* display: none; */
 }
 
 @media screen and (max-width: 991px) {
@@ -5700,6 +5703,7 @@ textarea::placeholder {
     left: 100%;
     translate: -50% 0;
     rotate: 270deg;
+    /* display: none; */
   }
 }
 
